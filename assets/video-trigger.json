@@ -1,0 +1,808 @@
+{
+    "Bucket": "pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905",
+    "Key": "video-trigger/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json",
+    "AssetId": "e7b0f0dc-2400-42cb-be84-88ddc9407b45.json",
+    "ArticleBody": {
+        "AssetId": "e7b0f0dc-2400-42cb-be84-88ddc9407b45.json",
+        "Text": "Ferrari  is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 out of the Alfa Romeo race division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947.Enzo Ferrari was not initially interested in the idea of producing road cars when he formed Scuderia Ferrari in 1929, with headquarters in Modena. Scuderia Ferrari literally means \u201cFerrari Stable\u201d and is usually used to mean \u201cTeam Ferrari.\u201d Ferrari bought prepared, and fielded Alfa Romeo racing cars for gentleman drivers, functioning as the racing division of Alfa Romeo. In 1933, Alfa Romeo withdrew its in-house racing team and Scuderia Ferrari took over as its works team: the Scuderia received Alfa\u2019s Grand Prix cars of the latest specifications and fielded many famous drivers such as Tazio Nuvolari and Achille Varzi. In 1938, Alfa Romeo brought its racing operation again in-house, forming Alfa Corse in Milan and hired Enzo Ferrari as manager of the new racing department; therefore the Scuderia Ferrari was disbanded.Since the company\u2019s beginnings, Ferrari has been involved in motorsport, competing in a range of categories including Formula One and sports car racing through its Scuderia Ferrari sporting division as well as supplying cars and engines to other teams and for one-make race series.1940 AAC 815 was the first racing car to be designed by Enzo Ferrari, although it was not badged as a Ferrari model.The first vehicle made with the Ferrari name was the 125 S. Only two of this small two-seat sports/racing V12 car were made. In 1949, the 166 Inter was introduced marking the company\u2019s significant move into the grand touring road car market. The first 166 Inter was a four-seat (2+2) berlinetta coupe with body work designed by Carrozzeria Touring Superleggera. Road cars quickly became the bulk of Ferrari sales.The early Ferrari cars typically featured bodywork designed and customised by independent coach builders such as Pininfarina, Scaglietti, Zagato, Vignale and Bertone.The original road cars were typically two-seat front-engined V12s. This platform served Ferrari very well through the 1950s and 1960s. In 1968 the Dino was introduced as the first two-seat rear mid-engined Ferrari. The Dino was produced primarily with a V6 engine, however, a V8 model was also developed. This rear mid-engine layout would go on to be used in many Ferraris of the 1980s, 1990s and to the present day. Current road cars typically use V8 or V12 engines, with V8 models making up well over half of the marque\u2019s total production. Historically, Ferrari has also produced flat 12 engines.The 1984 288 GTO may be considered the first in the line of Ferrari supercars. This pedigree extends through the Enzo Ferrari to the LaFerrari. In February 2019, at the 89th Geneva International Motor Show, Ferrari revealed its latest mid-engine V8 supercar, the F8 Tributo.Ferrari SF90 Stradale is the first-ever Ferrari to feature PHEV (Plug-in Hybrid Electric Vehicle) architecture which sees the internal combustion engine integrated with three electric motors, two of which are independent and located on the front axle, with the third at the rear between the engine and the gearbox.",
+        "LanguageCode": "en-US",
+        "VoiceId": "Kevin",
+        "Engine": "neural",
+        "Url": "https://giusedroid.wordpress.com/2021/04/29/a-brief-history-of-ferrari/amp/",
+        "ImagesURLs": [
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_01.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_04.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_02.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_05.jpg"
+        ],
+        "TitlesText": [
+            "Racing DNA",
+            "Motorsport Evolution",
+            "Road Cars",
+            "Modern Supercars"
+        ],
+        "Entities": [
+            {
+                "Score": 0.9922897219657898,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 0,
+                "EndOffset": 7
+            },
+            {
+                "Score": 0.9665127992630005,
+                "Type": "OTHER",
+                "Text": "Italian",
+                "BeginOffset": 15,
+                "EndOffset": 22
+            },
+            {
+                "Score": 0.9865739941596985,
+                "Type": "LOCATION",
+                "Text": "Maranello, Italy",
+                "BeginOffset": 63,
+                "EndOffset": 79
+            },
+            {
+                "Score": 0.8678830862045288,
+                "Type": "PERSON",
+                "Text": "Enzo Ferrari",
+                "BeginOffset": 92,
+                "EndOffset": 104
+            },
+            {
+                "Score": 0.9990893602371216,
+                "Type": "DATE",
+                "Text": "1939",
+                "BeginOffset": 108,
+                "EndOffset": 112
+            },
+            {
+                "Score": 0.997645914554596,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa Romeo",
+                "BeginOffset": 124,
+                "EndOffset": 134
+            },
+            {
+                "Score": 0.9951758980751038,
+                "Type": "ORGANIZATION",
+                "Text": "Auto Avio Costruzioni",
+                "BeginOffset": 152,
+                "EndOffset": 173
+            },
+            {
+                "Score": 0.9887651205062866,
+                "Type": "QUANTITY",
+                "Text": "first car",
+                "BeginOffset": 197,
+                "EndOffset": 206
+            },
+            {
+                "Score": 0.9988935589790344,
+                "Type": "DATE",
+                "Text": "1940",
+                "BeginOffset": 210,
+                "EndOffset": 214
+            },
+            {
+                "Score": 0.9943069815635681,
+                "Type": "QUANTITY",
+                "Text": "first",
+                "BeginOffset": 233,
+                "EndOffset": 238
+            },
+            {
+                "Score": 0.4226551353931427,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 239,
+                "EndOffset": 246
+            },
+            {
+                "Score": 0.5782862305641174,
+                "Type": "QUANTITY",
+                "Text": "car",
+                "BeginOffset": 254,
+                "EndOffset": 257
+            },
+            {
+                "Score": 0.9896280765533447,
+                "Type": "DATE",
+                "Text": "1947.Enzo",
+                "BeginOffset": 261,
+                "EndOffset": 270
+            },
+            {
+                "Score": 0.8742840886116028,
+                "Type": "PERSON",
+                "Text": "Ferrari",
+                "BeginOffset": 271,
+                "EndOffset": 278
+            },
+            {
+                "Score": 0.9315663576126099,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia Ferrari",
+                "BeginOffset": 358,
+                "EndOffset": 374
+            },
+            {
+                "Score": 0.9992067217826843,
+                "Type": "DATE",
+                "Text": "1929",
+                "BeginOffset": 378,
+                "EndOffset": 382
+            },
+            {
+                "Score": 0.9991596937179565,
+                "Type": "LOCATION",
+                "Text": "Modena",
+                "BeginOffset": 405,
+                "EndOffset": 411
+            },
+            {
+                "Score": 0.9156971573829651,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia Ferrari",
+                "BeginOffset": 413,
+                "EndOffset": 429
+            },
+            {
+                "Score": 0.7246978282928467,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 447,
+                "EndOffset": 454
+            },
+            {
+                "Score": 0.932436466217041,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 497,
+                "EndOffset": 504
+            },
+            {
+                "Score": 0.966004490852356,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 507,
+                "EndOffset": 514
+            },
+            {
+                "Score": 0.97238689661026,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa Romeo",
+                "BeginOffset": 544,
+                "EndOffset": 554
+            },
+            {
+                "Score": 0.9982865452766418,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa Romeo",
+                "BeginOffset": 628,
+                "EndOffset": 638
+            },
+            {
+                "Score": 0.9988477230072021,
+                "Type": "DATE",
+                "Text": "1933",
+                "BeginOffset": 643,
+                "EndOffset": 647
+            },
+            {
+                "Score": 0.9961930513381958,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa Romeo",
+                "BeginOffset": 649,
+                "EndOffset": 659
+            },
+            {
+                "Score": 0.9934269785881042,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia Ferrari",
+                "BeginOffset": 698,
+                "EndOffset": 714
+            },
+            {
+                "Score": 0.9871456623077393,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia",
+                "BeginOffset": 748,
+                "EndOffset": 756
+            },
+            {
+                "Score": 0.9732167720794678,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa",
+                "BeginOffset": 766,
+                "EndOffset": 770
+            },
+            {
+                "Score": 0.5122107863426208,
+                "Type": "EVENT",
+                "Text": "Prix",
+                "BeginOffset": 779,
+                "EndOffset": 783
+            },
+            {
+                "Score": 0.5101088881492615,
+                "Type": "QUANTITY",
+                "Text": "many",
+                "BeginOffset": 830,
+                "EndOffset": 834
+            },
+            {
+                "Score": 0.9267215728759766,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Tazio Nuvolari",
+                "BeginOffset": 858,
+                "EndOffset": 872
+            },
+            {
+                "Score": 0.7145555019378662,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Achille Varzi",
+                "BeginOffset": 877,
+                "EndOffset": 890
+            },
+            {
+                "Score": 0.998923122882843,
+                "Type": "DATE",
+                "Text": "1938",
+                "BeginOffset": 895,
+                "EndOffset": 899
+            },
+            {
+                "Score": 0.9972896575927734,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa Romeo",
+                "BeginOffset": 901,
+                "EndOffset": 911
+            },
+            {
+                "Score": 0.9886752367019653,
+                "Type": "ORGANIZATION",
+                "Text": "Alfa",
+                "BeginOffset": 965,
+                "EndOffset": 969
+            },
+            {
+                "Score": 0.5990666747093201,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Corse",
+                "BeginOffset": 970,
+                "EndOffset": 975
+            },
+            {
+                "Score": 0.9966844916343689,
+                "Type": "LOCATION",
+                "Text": "Milan",
+                "BeginOffset": 979,
+                "EndOffset": 984
+            },
+            {
+                "Score": 0.6742328405380249,
+                "Type": "PERSON",
+                "Text": "Enzo Ferrari",
+                "BeginOffset": 995,
+                "EndOffset": 1007
+            },
+            {
+                "Score": 0.7614614963531494,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia Ferrari",
+                "BeginOffset": 1063,
+                "EndOffset": 1079
+            },
+            {
+                "Score": 0.991943359375,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1126,
+                "EndOffset": 1133
+            },
+            {
+                "Score": 0.43177852034568787,
+                "Type": "EVENT",
+                "Text": "Formula",
+                "BeginOffset": 1212,
+                "EndOffset": 1219
+            },
+            {
+                "Score": 0.5792743563652039,
+                "Type": "TITLE",
+                "Text": "One",
+                "BeginOffset": 1220,
+                "EndOffset": 1223
+            },
+            {
+                "Score": 0.9387639760971069,
+                "Type": "ORGANIZATION",
+                "Text": "Scuderia Ferrari",
+                "BeginOffset": 1258,
+                "EndOffset": 1274
+            },
+            {
+                "Score": 0.839101254940033,
+                "Type": "QUANTITY",
+                "Text": "one-make",
+                "BeginOffset": 1354,
+                "EndOffset": 1362
+            },
+            {
+                "Score": 0.9148198366165161,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "AAC 815",
+                "BeginOffset": 1380,
+                "EndOffset": 1387
+            },
+            {
+                "Score": 0.7636953592300415,
+                "Type": "QUANTITY",
+                "Text": "first racing car",
+                "BeginOffset": 1396,
+                "EndOffset": 1412
+            },
+            {
+                "Score": 0.5968416929244995,
+                "Type": "PERSON",
+                "Text": "Enzo",
+                "BeginOffset": 1431,
+                "EndOffset": 1435
+            },
+            {
+                "Score": 0.6526040434837341,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1436,
+                "EndOffset": 1443
+            },
+            {
+                "Score": 0.9813588261604309,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1477,
+                "EndOffset": 1484
+            },
+            {
+                "Score": 0.9520201086997986,
+                "Type": "QUANTITY",
+                "Text": "first vehicle",
+                "BeginOffset": 1495,
+                "EndOffset": 1508
+            },
+            {
+                "Score": 0.9882596731185913,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1523,
+                "EndOffset": 1530
+            },
+            {
+                "Score": 0.9969419240951538,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "125 S.",
+                "BeginOffset": 1544,
+                "EndOffset": 1550
+            },
+            {
+                "Score": 0.803063690662384,
+                "Type": "QUANTITY",
+                "Text": "two",
+                "BeginOffset": 1556,
+                "EndOffset": 1559
+            },
+            {
+                "Score": 0.8591575622558594,
+                "Type": "QUANTITY",
+                "Text": "two-seat sports",
+                "BeginOffset": 1574,
+                "EndOffset": 1589
+            },
+            {
+                "Score": 0.5812758207321167,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V12",
+                "BeginOffset": 1597,
+                "EndOffset": 1600
+            },
+            {
+                "Score": 0.9987095594406128,
+                "Type": "DATE",
+                "Text": "1949",
+                "BeginOffset": 1619,
+                "EndOffset": 1623
+            },
+            {
+                "Score": 0.9952574968338013,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "166 Inter",
+                "BeginOffset": 1629,
+                "EndOffset": 1638
+            },
+            {
+                "Score": 0.8105729222297668,
+                "Type": "QUANTITY",
+                "Text": "first",
+                "BeginOffset": 1737,
+                "EndOffset": 1742
+            },
+            {
+                "Score": 0.9807888269424438,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "166 Inter",
+                "BeginOffset": 1743,
+                "EndOffset": 1752
+            },
+            {
+                "Score": 0.946994423866272,
+                "Type": "QUANTITY",
+                "Text": "four-seat",
+                "BeginOffset": 1759,
+                "EndOffset": 1768
+            },
+            {
+                "Score": 0.4215838611125946,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "2",
+                "BeginOffset": 1770,
+                "EndOffset": 1771
+            },
+            {
+                "Score": 0.753473162651062,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "2",
+                "BeginOffset": 1772,
+                "EndOffset": 1773
+            },
+            {
+                "Score": 0.8835095763206482,
+                "Type": "ORGANIZATION",
+                "Text": "Carrozzeria",
+                "BeginOffset": 1819,
+                "EndOffset": 1830
+            },
+            {
+                "Score": 0.4891807734966278,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Touring Superleggera",
+                "BeginOffset": 1831,
+                "EndOffset": 1851
+            },
+            {
+                "Score": 0.9941658973693848,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1890,
+                "EndOffset": 1897
+            },
+            {
+                "Score": 0.9968177080154419,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 1914,
+                "EndOffset": 1921
+            },
+            {
+                "Score": 0.894444465637207,
+                "Type": "ORGANIZATION",
+                "Text": "Pininfarina",
+                "BeginOffset": 2017,
+                "EndOffset": 2028
+            },
+            {
+                "Score": 0.9082576632499695,
+                "Type": "ORGANIZATION",
+                "Text": "Scaglietti",
+                "BeginOffset": 2030,
+                "EndOffset": 2040
+            },
+            {
+                "Score": 0.9445992112159729,
+                "Type": "ORGANIZATION",
+                "Text": "Zagato",
+                "BeginOffset": 2042,
+                "EndOffset": 2048
+            },
+            {
+                "Score": 0.9102649092674255,
+                "Type": "ORGANIZATION",
+                "Text": "Vignale",
+                "BeginOffset": 2050,
+                "EndOffset": 2057
+            },
+            {
+                "Score": 0.9756594896316528,
+                "Type": "ORGANIZATION",
+                "Text": "Bertone.The",
+                "BeginOffset": 2062,
+                "EndOffset": 2073
+            },
+            {
+                "Score": 0.9741680026054382,
+                "Type": "QUANTITY",
+                "Text": "two-seat",
+                "BeginOffset": 2108,
+                "EndOffset": 2116
+            },
+            {
+                "Score": 0.5622731447219849,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V12s",
+                "BeginOffset": 2131,
+                "EndOffset": 2135
+            },
+            {
+                "Score": 0.9950791597366333,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2158,
+                "EndOffset": 2165
+            },
+            {
+                "Score": 0.9958176016807556,
+                "Type": "DATE",
+                "Text": "1950s",
+                "BeginOffset": 2188,
+                "EndOffset": 2193
+            },
+            {
+                "Score": 0.9959827661514282,
+                "Type": "DATE",
+                "Text": "1960s",
+                "BeginOffset": 2198,
+                "EndOffset": 2203
+            },
+            {
+                "Score": 0.9971714615821838,
+                "Type": "DATE",
+                "Text": "1968",
+                "BeginOffset": 2208,
+                "EndOffset": 2212
+            },
+            {
+                "Score": 0.9540412425994873,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Dino",
+                "BeginOffset": 2217,
+                "EndOffset": 2221
+            },
+            {
+                "Score": 0.9416077136993408,
+                "Type": "QUANTITY",
+                "Text": "first two-seat",
+                "BeginOffset": 2244,
+                "EndOffset": 2258
+            },
+            {
+                "Score": 0.9857861995697021,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2276,
+                "EndOffset": 2283
+            },
+            {
+                "Score": 0.9540470242500305,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "Dino",
+                "BeginOffset": 2289,
+                "EndOffset": 2293
+            },
+            {
+                "Score": 0.867891252040863,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V6",
+                "BeginOffset": 2324,
+                "EndOffset": 2326
+            },
+            {
+                "Score": 0.957985520362854,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V8",
+                "BeginOffset": 2346,
+                "EndOffset": 2348
+            },
+            {
+                "Score": 0.8559430241584778,
+                "Type": "ORGANIZATION",
+                "Text": "Ferraris",
+                "BeginOffset": 2434,
+                "EndOffset": 2442
+            },
+            {
+                "Score": 0.8858150243759155,
+                "Type": "DATE",
+                "Text": "1980s",
+                "BeginOffset": 2450,
+                "EndOffset": 2455
+            },
+            {
+                "Score": 0.9936612844467163,
+                "Type": "DATE",
+                "Text": "1990s",
+                "BeginOffset": 2457,
+                "EndOffset": 2462
+            },
+            {
+                "Score": 0.9749894142150879,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V8",
+                "BeginOffset": 2519,
+                "EndOffset": 2521
+            },
+            {
+                "Score": 0.8934127688407898,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V12",
+                "BeginOffset": 2525,
+                "EndOffset": 2528
+            },
+            {
+                "Score": 0.9613357186317444,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V8",
+                "BeginOffset": 2543,
+                "EndOffset": 2545
+            },
+            {
+                "Score": 0.45344188809394836,
+                "Type": "QUANTITY",
+                "Text": "half",
+                "BeginOffset": 2573,
+                "EndOffset": 2577
+            },
+            {
+                "Score": 0.9758495688438416,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2626,
+                "EndOffset": 2633
+            },
+            {
+                "Score": 0.9186448454856873,
+                "Type": "QUANTITY",
+                "Text": "12 engines.The",
+                "BeginOffset": 2657,
+                "EndOffset": 2671
+            },
+            {
+                "Score": 0.840392529964447,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "1984 288 GTO",
+                "BeginOffset": 2672,
+                "EndOffset": 2684
+            },
+            {
+                "Score": 0.9424274563789368,
+                "Type": "QUANTITY",
+                "Text": "first",
+                "BeginOffset": 2707,
+                "EndOffset": 2712
+            },
+            {
+                "Score": 0.9751522541046143,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2728,
+                "EndOffset": 2735
+            },
+            {
+                "Score": 0.7264823913574219,
+                "Type": "ORGANIZATION",
+                "Text": "Enzo Ferrari",
+                "BeginOffset": 2781,
+                "EndOffset": 2793
+            },
+            {
+                "Score": 0.8831573128700256,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "LaFerrari",
+                "BeginOffset": 2801,
+                "EndOffset": 2810
+            },
+            {
+                "Score": 0.9983037710189819,
+                "Type": "DATE",
+                "Text": "February 2019",
+                "BeginOffset": 2815,
+                "EndOffset": 2828
+            },
+            {
+                "Score": 0.8724089860916138,
+                "Type": "EVENT",
+                "Text": "89th Geneva International Motor Show",
+                "BeginOffset": 2837,
+                "EndOffset": 2873
+            },
+            {
+                "Score": 0.9788976907730103,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2875,
+                "EndOffset": 2882
+            },
+            {
+                "Score": 0.7649800181388855,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "V8",
+                "BeginOffset": 2914,
+                "EndOffset": 2916
+            },
+            {
+                "Score": 0.9487022161483765,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "F8 Tributo.Ferrari",
+                "BeginOffset": 2931,
+                "EndOffset": 2949
+            },
+            {
+                "Score": 0.9001845121383667,
+                "Type": "COMMERCIAL_ITEM",
+                "Text": "SF90 Stradale",
+                "BeginOffset": 2950,
+                "EndOffset": 2963
+            },
+            {
+                "Score": 0.9331264495849609,
+                "Type": "QUANTITY",
+                "Text": "first",
+                "BeginOffset": 2971,
+                "EndOffset": 2976
+            },
+            {
+                "Score": 0.9794452786445618,
+                "Type": "ORGANIZATION",
+                "Text": "Ferrari",
+                "BeginOffset": 2982,
+                "EndOffset": 2989
+            },
+            {
+                "Score": 0.9125649333000183,
+                "Type": "QUANTITY",
+                "Text": "three electric motors",
+                "BeginOffset": 3111,
+                "EndOffset": 3132
+            },
+            {
+                "Score": 0.9724904298782349,
+                "Type": "QUANTITY",
+                "Text": "two",
+                "BeginOffset": 3134,
+                "EndOffset": 3137
+            },
+            {
+                "Score": 0.877232015132904,
+                "Type": "QUANTITY",
+                "Text": "third",
+                "BeginOffset": 3203,
+                "EndOffset": 3208
+            }
+        ],
+        "SRTFile": "TODO",
+        "VMAPFile": "TODO"
+    },
+    "Metadata": {
+        "Engine": "neural",
+        "LanguageCode": "en-US",
+        "FullNarration": "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/audio/full/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/.394cc3a0-5fef-4c18-b49a-f10e998cc9c9.mp3",
+        "ArticlePath": "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/text/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json",
+        "PostProducedImagesS3Paths": [
+            "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/image/output/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/ferrari_01.jpg.tga",
+            "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/image/output/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/ferrari_04.jpg.tga",
+            "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/image/output/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/ferrari_02.jpg.tga",
+            "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/image/output/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/ferrari_05.jpg.tga"
+        ],
+        "VoiceId": "Kevin",
+        "AudioPreview": "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/audio/preview/e7b0f0dc-2400-42cb-be84-88ddc9407b45.json/.394cc3a0-5fef-4c18-b49a-f10e998cc9c9.wav",
+        "AssetId": "e7b0f0dc-2400-42cb-be84-88ddc9407b45.json",
+        "Bucket": "pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905",
+        "Url": "https://giusedroid.wordpress.com/2021/04/29/a-brief-history-of-ferrari/amp/",
+        "ImagesURLs": [
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_01.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_04.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_02.jpg",
+            "https://giusedroid.files.wordpress.com/2021/04/ferrari_05.jpg"
+        ]
+    }
+}

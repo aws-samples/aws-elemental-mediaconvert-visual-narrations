@@ -1,0 +1,611 @@
+{"Voices":{
+    "arb": [
+       {
+          "Language": "Arabic",
+          "FullLanguageCode": "arb",
+          "VoiceId": "Zeina",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "cmn": [
+       {
+          "Language": "Chinese Mandarin",
+          "FullLanguageCode": "cmn-CN",
+          "VoiceId": "Zhiyu",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "da": [
+       {
+          "Language": "Danish",
+          "FullLanguageCode": "da-DK",
+          "VoiceId": "Naja",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Danish",
+          "FullLanguageCode": "da-DK",
+          "VoiceId": "Mads",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "nl": [
+       {
+          "Language": "Dutch",
+          "FullLanguageCode": "nl-NL",
+          "VoiceId": "Lotte",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Dutch",
+          "FullLanguageCode": "nl-NL",
+          "VoiceId": "Ruben",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "en": [
+       {
+          "Language": "English (Australian)",
+          "FullLanguageCode": "en-AU",
+          "VoiceId": "Nicole",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (Australian)",
+          "FullLanguageCode": "en-AU",
+          "VoiceId": "Olivia",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": false,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (Australian)",
+          "FullLanguageCode": "en-AU",
+          "VoiceId": "Russell",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (British)",
+          "FullLanguageCode": "en-GB",
+          "VoiceId": "Amy",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": true
+       },
+       {
+          "Language": "English (British)",
+          "FullLanguageCode": "en-GB",
+          "VoiceId": "Emma",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (British)",
+          "FullLanguageCode": "en-GB",
+          "VoiceId": "Brian",
+          "Gender": "Male",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (Indian)",
+          "FullLanguageCode": "en-IN",
+          "VoiceId": "Aditi",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (Indian)",
+          "FullLanguageCode": "en-IN",
+          "VoiceId": "Raveena",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Ivy",
+          "Gender": "Female (child)",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Joanna",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": true
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Kendra",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Kimberly",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Salli",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Joey",
+          "Gender": "Male",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Justin",
+          "Gender": "Male (child)",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Kevin",
+          "Gender": "Male (child)",
+          "Neural": true,
+          "Standard": false,
+          "Newscaster": false
+       },
+       {
+          "Language": "English (US)",
+          "FullLanguageCode": "en-US",
+          "VoiceId": "Matthew",
+          "Gender": "Male",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": true
+       },
+       {
+          "Language": "English (Welsh)",
+          "FullLanguageCode": "en-GB-WLS",
+          "VoiceId": "Geraint",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "cy": [
+       {
+          "Language": "English (Welsh)",
+          "FullLanguageCode": "cy-GB",
+          "VoiceId": "Gwyneth",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "fr": [
+       {
+          "Language": "French",
+          "FullLanguageCode": "fr-FR",
+          "VoiceId": "Celine",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "French",
+          "FullLanguageCode": "fr-FR",
+          "VoiceId": "Léa",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "French",
+          "FullLanguageCode": "fr-FR",
+          "VoiceId": "Mathieu",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "French(Canadian)",
+          "FullLanguageCode": "fr-CA",
+          "VoiceId": "Chantal",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "de": [
+       {
+          "Language": "German",
+          "FullLanguageCode": "de-DE",
+          "VoiceId": "Marlene",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "German",
+          "FullLanguageCode": "de-DE",
+          "VoiceId": "Vicki",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "German",
+          "FullLanguageCode": "de-DE",
+          "VoiceId": "Hans",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "hi": [
+       {
+          "Language": "Hindi",
+          "FullLanguageCode": "hi-IN",
+          "VoiceId": "Aditi",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "is": [
+       {
+          "Language": "Icelandic",
+          "FullLanguageCode": "is-IS",
+          "VoiceId": "Dora",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Icelandic",
+          "FullLanguageCode": "is-IS",
+          "VoiceId": "Karl",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "it": [
+       {
+          "Language": "Italian",
+          "FullLanguageCode": "it-IT",
+          "VoiceId": "Carla",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Italian",
+          "FullLanguageCode": "it-IT",
+          "VoiceId": "Bianca",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Italian",
+          "FullLanguageCode": "it-IT",
+          "VoiceId": "Giorgio",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "ja": [
+       {
+          "Language": "Japanese",
+          "FullLanguageCode": "ja-JP",
+          "VoiceId": "Mizuki",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Japanese",
+          "FullLanguageCode": "ja-JP",
+          "VoiceId": "Takumi",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "ko": [
+       {
+          "Language": "Korean",
+          "FullLanguageCode": "ko-KR",
+          "VoiceId": "Seoyeon",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "nb": [
+       {
+          "Language": "Norwegian",
+          "FullLanguageCode": "nb-NO",
+          "VoiceId": "Liv",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "pl": [
+       {
+          "Language": "Polish",
+          "FullLanguageCode": "pl-PL",
+          "VoiceId": "Ewa",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Polish",
+          "FullLanguageCode": "pl-PL",
+          "VoiceId": "Maja",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Polish",
+          "FullLanguageCode": "pl-PL",
+          "VoiceId": "Jacek",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Polish",
+          "FullLanguageCode": "pl-PL",
+          "VoiceId": "Jan",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "pt": [
+       {
+          "Language": "Portuguese (Brazilian)",
+          "FullLanguageCode": "pt-BR",
+          "VoiceId": "Camila",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Portuguese (Brazilian)",
+          "FullLanguageCode": "pt-BR",
+          "VoiceId": "Vitoria",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Portuguese (Brazilian)",
+          "FullLanguageCode": "pt-BR",
+          "VoiceId": "Ricardo",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Portuguese (European)",
+          "FullLanguageCode": "pt-PT",
+          "VoiceId": "Ines",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Portuguese (European)",
+          "FullLanguageCode": "pt-PT",
+          "VoiceId": "Cristiano",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "ro": [
+       {
+          "Language": "Romanian",
+          "FullLanguageCode": "ro-RO",
+          "VoiceId": "Carmen",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "ru": [
+       {
+          "Language": "Russian",
+          "FullLanguageCode": "ru-RU",
+          "VoiceId": "Tatyana",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Russian",
+          "FullLanguageCode": "ru-RU",
+          "VoiceId": "Maxim",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "es": [
+       {
+          "Language": "Spanish (European)",
+          "FullLanguageCode": "es-ES",
+          "VoiceId": "Conchita",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Spanish (European)",
+          "FullLanguageCode": "es-ES",
+          "VoiceId": "Lucia",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Spanish (European)",
+          "FullLanguageCode": "es-ES",
+          "VoiceId": "Enrique",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "Spanish (Mexican)",
+          "FullLanguageCode": "es-MX",
+          "VoiceId": "Mia",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "US Spanish",
+          "FullLanguageCode": "es-US",
+          "VoiceId": "Lupe",
+          "Gender": "Female",
+          "Neural": true,
+          "Standard": true,
+          "Newscaster": true
+       },
+       {
+          "Language": "US Spanish",
+          "FullLanguageCode": "es-US",
+          "VoiceId": "Penelope",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       },
+       {
+          "Language": "US Spanish",
+          "FullLanguageCode": "es-US",
+          "VoiceId": "Miguel",
+          "Gender": "Male",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "sv": [
+       {
+          "Language": "Swedish",
+          "FullLanguageCode": "sv-SE",
+          "VoiceId": "Astrid",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ],
+    "tr": [
+       {
+          "Language": "Turkish",
+          "FullLanguageCode": "tr-TR",
+          "VoiceId": "Filiz",
+          "Gender": "Female",
+          "Neural": false,
+          "Standard": true,
+          "Newscaster": false
+       }
+    ]
+ }}

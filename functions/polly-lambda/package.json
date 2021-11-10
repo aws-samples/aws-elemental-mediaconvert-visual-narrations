@@ -1,0 +1,15 @@
+{
+  "name": "polly-lambda",
+  "version": "1.0.0",
+  "description": "Triggered when a JSON object is uploaded to an S3 bucket, will trigger a Polly job to produce a synthetized speech mp3 file",
+  "main": "polly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "Polly"
+  ],
+  "author": "gbatt@amazon.com",
+  "license": "MIT"
+}

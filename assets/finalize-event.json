@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "eu-west-1",
+            "eventTime": "2021-09-14T12:06:32.578Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:REDACTED"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "REDACTED"
+            },
+            "responseElements": {
+                "x-amz-request-id": "REDACTED",
+                "x-amz-id-2": "REDACTED"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "REDACTED",
+                "bucket": {
+                    "name": "REDACTED",
+                    "ownerIdentity": {
+                        "principalId": "REDACTED"
+                    },
+                    "arn": "arn:aws:s3:::REDACTED"
+                },
+                "object": {
+                    "key": "output/full/hls/62de657b-7884-4dc0-8286-b9b63c521351/template62de657b-7884-4dc0-8286-b9b63c521351.m3u8",
+                    "size": 1089,
+                    "eTag": "REDACTED",
+                    "sequencer": "REDACTED"
+                }
+            }
+        }
+    ]
+}

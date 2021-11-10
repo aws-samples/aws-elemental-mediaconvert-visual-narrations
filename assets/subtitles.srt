@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,000
+A Brief History of Ferrari
+
+2
+00:00:05,100 --> 00:00:10,000
+Racing DNA
+
+3
+00:00:10,100 --> 00:00:15,000
+Motorsport Evolution
+
+4
+00:00:15,100 --> 00:00:20,000
+Road Car
+
+5
+00:00:20,100 --> 00:00:25,000
+Modern Supercars
+
+6
+00:00:25,100 --> 00:00:30,000
+More info at aws.amazon.com

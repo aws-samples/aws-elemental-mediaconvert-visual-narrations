@@ -1,0 +1,134 @@
+{
+  
+    "OutputGroups": [
+      {
+        "Name": "File Group",
+        "Outputs": [
+          {
+            "ContainerSettings": {
+              "Container": "MP4",
+              "Mp4Settings": {}
+            },
+            "VideoDescription": {
+              "CodecSettings": {
+                "Codec": "H_264",
+                "H264Settings": {
+                  "Bitrate": 2000000
+                }
+              }
+            },
+            "AudioDescriptions": [
+              {
+                "CodecSettings": {
+                  "Codec": "AAC",
+                  "AacSettings": {
+                    "Bitrate": 96000,
+                    "CodingMode": "CODING_MODE_2_0",
+                    "SampleRate": 48000
+                  }
+                }
+              }
+            ],
+            "CaptionDescriptions": [
+              {
+                "CaptionSelectorName": "Captions Selector 1",
+                "DestinationSettings": {
+                  "DestinationType": "BURN_IN",
+                  "BurninDestinationSettings": {
+                    "Alignment": "CENTERED",
+                    "OutlineSize": 0,
+                    "FontOpacity": 255,
+                    "OutlineColor": "BLACK"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "OutputGroupSettings": {
+          "Type": "FILE_GROUP_SETTINGS",
+          "FileGroupSettings": {
+            "Destination": ""
+          }
+        }
+      }
+    ],
+    "AdAvailOffset": 0,
+    "Inputs": [
+      {
+        "InputClippings": [
+          {
+            "EndTimecode": "00:00:31:00",
+            "StartTimecode": "00:00:00:00"
+          }
+        ],
+        "AudioSelectors": {
+          "Audio Selector 1": {
+            "DefaultSelection": "DEFAULT",
+            "ExternalAudioFileInput": "s3://test/client.e56032ba-6893-4be8-8694-a703c5ab1c39(1).mp3"
+          }
+        },
+        "VideoSelector": {},
+        "TimecodeSource": "ZEROBASED",
+        "CaptionSelectors": {
+          "Captions Selector 1": {
+            "SourceSettings": {
+              "SourceType": "SRT",
+              "FileSourceSettings": {
+                "SourceFile": "s3://test/experiment.srt"
+              }
+            }
+          }
+        },
+        "ImageInserter": {
+          "InsertableImages": [
+            {
+              "Width": 1200,
+              "Height": 900,
+              "ImageX": 400,
+              "ImageY": 10,
+              "Duration": 5000,
+              "Layer": 0,
+              "ImageInserterInput": "s3://test/Image1.png",
+              "StartTime": "00:00:05:00",
+              "Opacity": 100
+            },
+            {
+              "Width": 1200,
+              "Height": 900,
+              "ImageX": 400,
+              "ImageY": 10,
+              "Duration": 5000,
+              "Layer": 1,
+              "ImageInserterInput": "s3://test/Image2.png",
+              "StartTime": "00:00:10:00",
+              "Opacity": 100
+            },
+            {
+              "Width": 1200,
+              "Height": 900,
+              "ImageX": 400,
+              "ImageY": 10,
+              "Duration": 5000,
+              "Layer": 2,
+              "ImageInserterInput": "s3://test/Image3.png",
+              "StartTime": "00:00:15:00",
+              "Opacity": 100
+            },
+            {
+              "Width": 1200,
+              "Height": 900,
+              "ImageX": 400,
+              "ImageY": 10,
+              "Duration": 5000,
+              "Layer": 3,
+              "ImageInserterInput": "s3://test/Image4.png",
+              "StartTime": "00:00:20:10",
+              "Opacity": 100
+            }
+          ]
+        },
+        "FileInput": "s3://test/10min_static.mov"
+      }
+    ]
+  }

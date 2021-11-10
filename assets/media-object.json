@@ -1,0 +1,18 @@
+{
+    "s3_full_path": "s3://pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/audio/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39.mp3",
+    "s3_path": "pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/audio/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39.mp3",
+    "s3_bucket": "pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905",
+    "s3_key": "audio/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39.mp3",
+    "media_type": "audio",
+    "media_format": "full",
+    "media_extension": "mp3",
+    "media_polly_file": "REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39.mp3",
+    "media_polly_no_extension": "REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39",
+    "media_document_id": "full/test-001",
+    "local_path": "/tmp/audio/full/full/test-001",
+    "local_full_path": "/tmp/audio/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39.mp3",
+    "local_preview_path": "/tmp/audio/preview/full/test-001",
+    "local_preview_full_path": "/tmp/audio/preview/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39..wav",
+    "preview_s3_key": "audio/preview/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39..wav",
+    "preview_s3_full_path": "pollypreviewsimplestack-pollyassetstore920ee247-1pvn3ec82d905/audio/preview/full/test-001/REDACTED.e56032ba-6893-4be8-8694-a703c5ab1c39..wav"
+}

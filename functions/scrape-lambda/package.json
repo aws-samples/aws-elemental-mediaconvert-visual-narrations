@@ -1,0 +1,26 @@
+{
+  "name": "scraper-lambda",
+  "version": "1.0.0",
+  "description": "Lambda taht scrapes a wordpres amp article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "scraping",
+    "amp",
+    "article"
+  ],
+  "author": "gbatt@amazon.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "jsdom": "^16.5.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.910.0"
+  }
+}

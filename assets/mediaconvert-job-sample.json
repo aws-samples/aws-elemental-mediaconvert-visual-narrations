@@ -1,0 +1,148 @@
+{
+    "Queue": "arn:aws:mediaconvert:eu-west-1:REDACTED:queues/Default",
+    "UserMetadata": {
+      "assetID": "a19216b2-9f75-4119-9a39-7a6a950be0d8.json",
+      "application": "VOD",
+      "input": "s3://gbatt-blogs/narratives/template.mov",
+      "settings": "Default"
+    },
+    "Role": "arn:aws:iam::REDACTED:role/MediaconvertPassDownRole",
+    "Settings": {
+      "OutputGroups": [
+        {
+          "Name": "File Group",
+          "Outputs": [
+            {
+              "ContainerSettings": {
+                "Container": "MP4",
+                "Mp4Settings": {}
+              },
+              "VideoDescription": {
+                "CodecSettings": {
+                  "Codec": "H_264",
+                  "H264Settings": {
+                    "Bitrate": 2000000
+                  }
+                }
+              },
+              "AudioDescriptions": [
+                {
+                  "CodecSettings": {
+                    "Codec": "AAC",
+                    "AacSettings": {
+                      "Bitrate": 96000,
+                      "CodingMode": "CODING_MODE_2_0",
+                      "SampleRate": 48000
+                    }
+                  }
+                }
+              ],
+              "CaptionDescriptions": [
+                {
+                  "CaptionSelectorName": "Captions Selector 1",
+                  "DestinationSettings": {
+                    "DestinationType": "BURN_IN",
+                    "BurninDestinationSettings": {
+                      "Alignment": "CENTERED",
+                      "OutlineSize": 0,
+                      "FontOpacity": 255,
+                      "OutlineColor": "BLACK"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "OutputGroupSettings": {
+            "Type": "FILE_GROUP_SETTINGS",
+            "FileGroupSettings": {
+              "Destination": "s3://$POLLY_ASSET_STORE/output/preview/a19216b2-9f75-4119-9a39-7a6a950be0d8"
+            }
+          }
+        }
+      ],
+      "AdAvailOffset": 0,
+      "Inputs": [
+        {
+          "InputClippings": [
+            {
+              "EndTimecode": "00:00:31:00",
+              "StartTimecode": "00:00:00:00"
+            }
+          ],
+          "AudioSelectors": {
+            "Audio Selector 1": {
+              "DefaultSelection": "DEFAULT",
+              "ExternalAudioFileInput": "s3://$POLLY_ASSET_STORE/audio/preview/a19216b2-9f75-4119-9a39-7a6a950be0d8.json/$PREVIEW.wav"
+            }
+          },
+          "VideoSelector": {},
+          "TimecodeSource": "ZEROBASED",
+          "CaptionSelectors": {
+            "Captions Selector 1": {
+              "SourceSettings": {
+                "SourceType": "SRT",
+                "FileSourceSettings": {
+                  "SourceFile": "s3://$POLLY_ASSET_STORE/srt/preview/a19216b2-9f75-4119-9a39-7a6a950be0d8.json.srt"
+                }
+              }
+            }
+          },
+          "ImageInserter": {
+            "InsertableImages": [
+              {
+                "Width": 1200,
+                "Height": 900,
+                "ImageX": 400,
+                "ImageY": 10,
+                "Duration": 5000,
+                "Layer": 0,
+                "ImageInserterInput": "s3://$POLLY_ASSET_STORE/image/output/a19216b2-9f75-4119-9a39-7a6a950be0d8.json/ferrari_01.jpg.tga",
+                "StartTime": "00:00:05:00",
+                "Opacity": 100
+              },
+              {
+                "Width": 1200,
+                "Height": 900,
+                "ImageX": 400,
+                "ImageY": 10,
+                "Duration": 5000,
+                "Layer": 1,
+                "ImageInserterInput": "s3://$POLLY_ASSET_STORE/image/output/a19216b2-9f75-4119-9a39-7a6a950be0d8.json/ferrari_04.jpg.tga",
+                "StartTime": "00:00:10:00",
+                "Opacity": 100
+              },
+              {
+                "Width": 1200,
+                "Height": 900,
+                "ImageX": 400,
+                "ImageY": 10,
+                "Duration": 5000,
+                "Layer": 2,
+                "ImageInserterInput": "s3://$POLLY_ASSET_STORE/image/output/a19216b2-9f75-4119-9a39-7a6a950be0d8.json/ferrari_02.jpg.tga",
+                "StartTime": "00:00:15:00",
+                "Opacity": 100
+              },
+              {
+                "Width": 1200,
+                "Height": 900,
+                "ImageX": 400,
+                "ImageY": 10,
+                "Duration": 5000,
+                "Layer": 3,
+                "ImageInserterInput": "s3://$POLLY_ASSET_STORE/image/output/a19216b2-9f75-4119-9a39-7a6a950be0d8.json/ferrari_05.jpg.tga",
+                "StartTime": "00:00:20:10",
+                "Opacity": 100
+              }
+            ]
+          },
+          "FileInput": "s3://gbatt-blogs/narratives/template.mov"
+        }
+      ]
+    },
+    "AccelerationSettings": {
+      "Mode": "DISABLED"
+    },
+    "StatusUpdateInterval": "SECONDS_60",
+    "Priority": 0
+  }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap"version="1.0">
+    <vmap:AdBreak timeOffset="start"breakType="linear" breakId="pre">
+        <vmap:AdSource id="ad-source-1"followRedirects="true">
+            <vmap:AdTagURI templateType="vast3">
+                <![CDATA[ ${ADS_URL} ]]>
+            </vmap:AdTagURI>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+    <vmap:AdBreak timeOffset="end" breakType="linear" breakId="post">
+        <vmap:AdSource id="ad-source-1"followRedirects="true">
+            <vmap:AdTagURI templateType="vast3">
+                <![CDATA[ ${ADS_URL} ]]>
+            </vmap:AdTagURI>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+</vmap:VMAP>
