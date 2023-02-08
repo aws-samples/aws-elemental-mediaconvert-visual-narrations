@@ -47,15 +47,15 @@ exports.handler = async event => {
     const { document } = dom.window;
 
     const images = Array.from(
-        document.querySelectorAll('.amp-wp-article-content > figure a')
+        document.querySelectorAll('.entry-content > figure a')
     );
     
     const imagesURLs = images.map( ({href}) => href);
     
-    const articleHeader = document.querySelector('.amp-wp-title').innerHTML;
+    const articleHeader = document.querySelector('.entry-title').innerHTML;
     
     const titles = Array.from(
-        document.querySelectorAll('.amp-wp-article-content > h2')
+        document.querySelectorAll('.entry-content > h2')
     );
     
     const titlesText = titles.map( ({innerHTML}) => innerHTML);
@@ -63,7 +63,7 @@ exports.handler = async event => {
     titlesText.unshift(articleHeader);
     
     const paragraphs = Array.from(
-        document.querySelectorAll('.amp-wp-article-content > p')
+        document.querySelectorAll('.entry-content > p')
     );
     
     const paragraphsText = cheerio.load(
