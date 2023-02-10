@@ -148,6 +148,8 @@ export class PollyPreviewSimpleStack extends cdk.Stack {
         MediaConvertRole: MediaconvertPassDownRole.roleArn,
         // TEMPLATE_S3_URL: "s3://your/custom/template/here.mp4",
         // TEMPLATE_S3_URL_PREVIEW: "s3://your/custom/template/here.mp4",
+        TEMPLATE_S3_URL: `s3://${PollyAssetStore.bucketName}/custom/template/template.mov`,
+        TEMPLATE_S3_URL_PREVIEW: `s3://${PollyAssetStore.bucketName}/custom/template/Template_video_right.mov`,
       }
     });
     
