@@ -21,6 +21,6 @@
     "jsdom": "^16.5.3"
   },
   "devDependencies": {
-    "aws-sdk": "^2.910.0"
+    "aws-sdk": "^2.1354.0"
   }
 }
